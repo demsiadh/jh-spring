@@ -11,5 +11,5 @@ import org.springframework.beans.factory.config.BeanDefinition;
  * @data 2024/6/7 下午5:45
  */
 public interface InstantiationStrategy {
-    Object instantiate(String beanName, BeanDefinition beanDefinition) throws BeansException;
+    Object instantiate(BeanDefinition beanDefinition) throws BeansException;
 }

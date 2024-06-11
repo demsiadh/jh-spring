@@ -22,7 +22,7 @@ public class SimpleInstantiationStrategy implements InstantiationStrategy{
      * @throws BeansException 异常
      */
     @Override
-    public Object instantiate(String beanName, BeanDefinition beanDefinition) throws BeansException {
+    public Object instantiate(BeanDefinition beanDefinition) throws BeansException {
         Class<?> beanClass = beanDefinition.getBeanClass();
         try {
             Constructor<?> constructor = beanClass.getDeclaredConstructor();
