@@ -7,7 +7,7 @@ import org.springframework.beans.factory.config.BeanDefinition;
 
 /**
  * <big>使用CGLIB动态生成Bean</big>
- * <p></p>
+ * <p>实现了InstantiationStrategy接口，用于实例化Bean。</p>
  *
  * @author 13684
  * @data 2024/6/7 下午5:49

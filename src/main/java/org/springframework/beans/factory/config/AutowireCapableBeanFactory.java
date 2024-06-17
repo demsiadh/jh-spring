@@ -3,7 +3,7 @@ package org.springframework.beans.factory.config;
 import org.springframework.beans.factory.BeanFactory;
 
 /**
- * <big></big>
+ * <big>自动装配的实现接口</big>
  * <p></p>
  *
  * @author 13684

@@ -1,7 +1,7 @@
 package org.springframework.beans.factory.config;
 
 /**
- * <big>一个Bean对另一个Bean的引用</big>
+ * <big>Bean引用</big>
  * <p></p>
  *
  * @author 13684

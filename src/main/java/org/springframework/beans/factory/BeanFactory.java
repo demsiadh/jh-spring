@@ -12,9 +12,13 @@ import java.util.Map;
  * @data 2024/6/7 下午4:29
  */
 public interface BeanFactory {
-
+    /**
+     * 根据名称查找bean
+     * @param beanName Bean的名称
+     * @return Bean实例
+     * @throws BeansException
+     */
     Object getBean(String beanName) throws BeansException;
-
     /**
      * 根据名称和类型查找bean
      *

@@ -4,8 +4,8 @@ import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanDefinition;
 
 /**
- * <big></big>
- * <p></p>
+ * <big>配置Bean工厂接口</big>
+ * <p>继承了列表Bean工厂接口</p>
  *
  * @author 13684
  * @data 2024/6/17 下午3:08

@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * <big>默认的单例注册表</big>
+ * <big>默认的单例注册表实现类</big>
  * <p></p>
  *
  * @author 13684

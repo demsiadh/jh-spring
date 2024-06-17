@@ -8,6 +8,7 @@ import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 /**
  * <big>实现BeanFactory接口的抽象类</big>
  * <p>继承了默认的单例注册表</p>
+ * <p>实现了获取Bean，留了创建Bean的方法，留了获取BeanDefinition的方法</p>
  *
  * @author 13684
  * @data 2024/6/7 下午5:02

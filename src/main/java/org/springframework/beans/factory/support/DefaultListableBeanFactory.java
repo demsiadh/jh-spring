@@ -9,7 +9,7 @@ import java.util.Map;
 
 /**
  * <big>默认的ListBean工厂</big>
- * <p></p>
+ * <p>继承了自动装配能力的BeanFactory，实现了注册表接口和配置接口。</p>
  *
  * @author 13684
  * @data 2024/6/7 下午5:14

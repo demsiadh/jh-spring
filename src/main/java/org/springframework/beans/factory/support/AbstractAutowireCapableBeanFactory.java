@@ -9,7 +9,7 @@ import org.springframework.beans.factory.config.BeanReference;
 
 /**
  * <big>继承抽象Bean工厂的抽象工厂</big>
- * <p></p>
+ * <p>实现了自动装配</p>
  *
  * @author 13684
  * @data 2024/6/7 下午5:08
